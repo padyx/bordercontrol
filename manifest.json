@@ -6,7 +6,7 @@
   "author": "Patrick Bänziger",
 
   "default_locale": "en",
-  "description": "Extension to decorate the border of chrome depending on the displayed webpage",
+  "description": "Distinguish websites by adding a color border around them",
   "icons": {},
 
   "homepage_url": "https://github.com/padyx/bordercontrol",

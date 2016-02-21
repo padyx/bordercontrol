@@ -6,8 +6,9 @@
 </head>
 
 <body>
-  Add addresses of websites and the desired appearance of the border.
-
+  <p>
+  Configure the websites that shall be decorated with a border. You can either supply the full address, or the beginning (a prefix). Alternatively, regular expressions are supported.</p>
+  <p>See the <a href="#examples">examples</a> for details.</p>
 
   <table id="table">
     <thead>
@@ -39,6 +40,39 @@
 
   <div id="status"></div>
   <button id="save">Save</button>
+
+  <h2>Examples</h2>
+  <a name="examples"></a>
+  <table>
+    <thead>
+      <tr>
+        <th>Pattern</th>
+        <th>Matches</th>
+        <th>Doesn't match</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>https://twitter.com</td>
+        <td>Normal (encrypted, HTTPS) Twitter pages</td>
+        <td>Unencrypted Twitter pages, or encrypted pages from a subdomain of Twitter</td>
+      </tr>
+      <tr>
+        <td>https://.*\.facebook\.com</td>
+        <td>Any encrypted Facebook page, even from a subdomain.</td>
+        <td>Unencrypted Facebook pages, or pages of another domain.</td>
+      </tr>
+      <tr>
+        <td>http://developer.android.com/(training|guide)/.*</td>
+        <td>Training and guides on Android Developers</td>
+        <td>Reference on <code>http://developer.android.com/reference/</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+  You can learn more about regular expressions on <a href="http://regexone.com/">http://regexone.com</a> (not affiliated with this extension).
+  </p>
 
   <script src="options.js"></script>
 
