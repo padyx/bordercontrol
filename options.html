@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bordercontrol Options</title>
+  <link  rel="stylesheet" type="text/css" href="options.css">
+</head>
+
+<body>
+  Add addresses of websites and the desired appearance of the border.
+
+
+  <table id="table">
+    <thead>
+      <tr id="table-header">
+        <th class="pattern-column">Address</th>
+        <th class="color-column">Border Color</th>
+        <th class="thickness-column">Border Thickness</th>
+        <th><span id="addRowButton">+</span></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="rowTemplate">
+        <td><input type="text" class="pattern-column"></td>
+        <td><input type="color" class="color-column"></td>
+        <td><input type="number" min="1" max="100" step="1" value="2" class="thickness-column"></td>
+        <td>
+          <span class="removeRowButton">&cross;</span>
+        </td>
+        <td>
+          <span class="moveRowUpButton">&DoubleUpArrow;</span>
+          <span class="moveRowDownButton">&DoubleDownArrow;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+
+</body>
+</html>

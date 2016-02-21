@@ -1,0 +1,17 @@
+#body {}
+
+#table {margin-top:10px; margin-bottom: 10px;}
+#addRowButton {color:blue;}
+#table {min-width: 600px; border:1px solid #cccccc;}
+#rowTemplate {display: none;}
+
+th {text-align: left;}
+.pattern-column {min-width:500px;}
+.color-column {min-width:50px;}
+.thickness-column {min-width:50px;}
+
+.removeRowButton {font-size: 20px; cursor:pointer; color:red;  font-weight: bold; }
+.moveRowUpButton {font-size: 20px; cursor:pointer; color:blue;  font-weight: bold; }
+.moveRowDownButton {font-size: 20px; cursor:pointer; color:blue;  font-weight: bold; }
+
+#addRowButton {font-size: 20px; font-weight: bold; cursor:pointer; color:green;}
