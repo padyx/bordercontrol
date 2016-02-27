@@ -7,7 +7,10 @@
 
   "default_locale": "en",
   "description": "Distinguish websites by adding a color border around them",
-  "icons": {},
+  "icons": {
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
 
   "homepage_url": "https://github.com/padyx/bordercontrol",
   "permissions": ["tabs", "http://*/*", "https://*/*", "storage"],
