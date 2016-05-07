@@ -2,7 +2,8 @@
 {
     "manifest_version": 2,
   "name": "Bordercontrol",
-  "version": "0.0.0.2",
+  "version": "0.0.1.0",
+  "version_name": "0.0.1",
   "author": "Patrick Bänziger",
 
   "default_locale": "en",
