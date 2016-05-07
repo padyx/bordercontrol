@@ -59,7 +59,7 @@ function decorate(color, thickness){
   container.setAttributeNode(idAttr);
   var styleAttr = document.createAttribute("style");
 
-  styleAttr.value="position:fixed; z-index:2147483647; pointer-events:none; height:100%; width:100%; top:0; left:0; right:0; bottom:0; "
+  styleAttr.value="position:fixed; z-index:2147483647; pointer-events:none; top:0; left:0; right:0; bottom:0; "
       +"border: "+thickness+"px "+color+" solid;";
   container.setAttributeNode(styleAttr);
 
